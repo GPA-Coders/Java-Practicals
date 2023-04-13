@@ -1,14 +1,24 @@
-public class practical_2 {
-    public static void main(String[] args) {
-        int a = 10, b = 18, c = 12;
-        if (a > b && a > c) {
-            System.out.println(a + " is Maximum among three numbers.");
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
+        System.out.print("Enter a : ");
+        a = sc.nextInt();
+        System.out.print("Enter b : ");
+        b = sc.nextInt();
+        System.out.print("Enter c : ");
+        c = sc.nextInt();
+
+        if(a > b && a > c){
+            System.out.println(a + " is max");
         }
-        else if (b > a && b > c) {
-            System.out.println(b + " is Maximum among three numbers.");
+        else if(a > b && a > c){
+            System.out.println(b + " is max");
         }
-        else {
-            System.out.println(c + " is Maximum among three numbers.");
+        else{
+            System.out.println(c + " is max");
         }
     }
 }
