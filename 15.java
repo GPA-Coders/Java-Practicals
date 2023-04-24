@@ -13,8 +13,12 @@ class Child extends Derived {
         System.out.println("Constructor Of The Child Class.");
     }
 }
-public class practical_15 {
+public class Main {
     public static void main(String[] args) {
         Child c = new Child();
     }
 }
+
+// Constructor Of The Base Class.
+// Constructor Of The Derived Class.
+// Constructor Of The Child Class.
