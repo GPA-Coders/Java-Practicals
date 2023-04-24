@@ -1,3 +1,5 @@
+import javafx.scene.Parent;
+
 class Base {
     Base () {
         System.out.println("Constructor Of The Base Class.");
@@ -8,8 +10,12 @@ class Derived extends Base {
         System.out.println("Constructor Of The Derived Class.");
     }
 }
-public class practical_14 {
+
+public class Main {
     public static void main(String[] args) {
         Derived d = new Derived();
     }
 }
+
+// Constructor Of The Base Class.
+// Constructor Of The Derived Class.
