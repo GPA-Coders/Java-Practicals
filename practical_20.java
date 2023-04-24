@@ -30,7 +30,7 @@ class Circle extends Shape {
         return 3.1415f * radius * radius;
     }
 }
-public class practical_20 {
+public class Main {
     public static void main(String[] args) {
         Triangle obj1 = new Triangle(3.5f, 4.5f);
         Rectangle obj2 = new Rectangle(3.5f, 4.5f);
@@ -40,3 +40,7 @@ public class practical_20 {
         System.out.println("Area of Circle : " + obj3.area());
     }
 }
+
+// Area of Triangle : 7.875
+// Area of Rectangle : 15.75
+// Area of Circle : 78.537506
