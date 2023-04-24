@@ -1,6 +1,6 @@
-public class practical_9 {
+public class Main {
     static void hello() {
-        System.out.println("Heyy World..");
+        System.out.println("Hello World");
     }
     public static void main(String[] args) {
         hello();
