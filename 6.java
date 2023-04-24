@@ -14,7 +14,7 @@ class Student {
         return enrollmentNo;
     }
 }
-public class practical_6 {
+public class Main {
     public static void main(String[] args) {
         Student s = new Student();
         s.setName("Prakhar");
@@ -27,3 +27,7 @@ public class practical_6 {
         System.out.println(s2.getName());
     }
 }
+
+// Prakhar
+// Pratham
+// Tarun
