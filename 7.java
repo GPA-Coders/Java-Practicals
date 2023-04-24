@@ -8,8 +8,11 @@ class Rectangle {
         System.out.println("Weight : " + weight);
     }
 }
-public class practical_7 {
+public class Main {
     public static void main(String[] args) {
         Rectangle r = new Rectangle();
     }
 }
+
+// Height : 7.3
+// Weight : 5.1
