@@ -1,5 +1,3 @@
-import javafx.scene.Parent;
-
 class Base {
     Base () {
         System.out.println("Constructor Of The Base Class.");
