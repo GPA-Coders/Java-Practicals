@@ -1,12 +1,14 @@
 class name {
     private String name;
-    public name(String n) {
-        this.name = n;
+    public name(String name) {
+        this.name = name;
         System.out.println("Name : " + name);
     }
 }
-public class practical_8 {
+public class Main {
     public static void main(String[] args) {
-        name n = new name("Jack");
+        name n = new name("Hacker");
     }
 }
+
+// Name : Hacker
