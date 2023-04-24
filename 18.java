@@ -18,7 +18,7 @@ class Car {
         return "topSpeed is : " + topSpeed + " and name is : " + name;
     }
 }
-public class practical_18 {
+public class Main {
     public static void main(String[] args) {
         Car c1 = new Car();
         c1.setname("Ford");
@@ -29,8 +29,8 @@ public class practical_18 {
         c2.settopSpeed(20);
         System.out.println(c2.toString());
         Car c3 = new Car();
-        c3.setname("Nissan");
-        c3.settopSpeed(25);
+        c3.setname("Tigor");
+        c3.settopSpeed(20);
         System.out.println(c3.toString());
         Car c4 = new Car();
         c4.setname("Creta");
@@ -42,3 +42,9 @@ public class practical_18 {
         System.out.println(c5.toString());
     }
 }
+
+// topSpeed is : 15 and name is : Ford
+// topSpeed is : 20 and name is : MG
+// topSpeed is : 20 and name is : Tigor
+// topSpeed is : 30 and name is : Creta
+// topSpeed is : 35 and name is : Audi
