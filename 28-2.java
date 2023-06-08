@@ -17,3 +17,4 @@ public class practical28 {
         System.out.println(months);
     }
 }
+//[January, February, March, April, May, June, July, August, September, October, November, December]
