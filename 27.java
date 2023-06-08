@@ -31,6 +31,3 @@ public class practical_27 {
 // Writing Completed!
 // I Love Java!
 // Reading Completed!
-// Writing Completed!
-// I Love Java!      
-// Reading Completed!
